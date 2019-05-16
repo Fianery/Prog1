@@ -1,4 +1,10 @@
-def feladat(szamok):
-    for i in range(1,192939495969**0,5):
-        while (int(i[0]==1))and (int(i[2]==3))and (int(i[4]==5))and(int(i[6]==7)) and (int(i[8]==9)):
-            print (szamok)
+lista1=[]
+lista2=[]
+for i in range(101010,138902): #gyök
+    lista1.append(i)
+for j in (lista1):
+    n=j**2
+    n=str(n)
+    if n[0]=="1" and n[2]=="2" and n[4]=="3" and n[6]=="4" and n[8]=="5" and n[10]=="6":
+        lista2.append(j)
+print(lista2)
